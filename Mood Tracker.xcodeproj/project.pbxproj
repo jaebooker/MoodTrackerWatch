@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DDAF68921B9D15D002094BF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DDAF68721B9D15D002094BF /* Interface.storyboard */; };
+		0DDAF68B21B9D160002094BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DDAF68A21B9D160002094BF /* Assets.xcassets */; };
+		0DDAF69221B9D160002094BF /* watchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0DDAF69121B9D160002094BF /* watchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0DDAF69721B9D160002094BF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDAF69621B9D160002094BF /* InterfaceController.swift */; };
+		0DDAF69921B9D160002094BF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDAF69821B9D160002094BF /* ExtensionDelegate.swift */; };
+		0DDAF69B21B9D160002094BF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDAF69A21B9D160002094BF /* NotificationController.swift */; };
+		0DDAF69D21B9D161002094BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DDAF69C21B9D161002094BF /* Assets.xcassets */; };
+		0DDAF6A221B9D161002094BF /* watchKit.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0DDAF68521B9D15D002094BF /* watchKit.app */; };
+		0DDAF6AB21B9D195002094BF /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E995C6D2212363F00022E409 /* MoodEntry.swift */; };
+		0DDAF6B221B9D56D002094BF /* whatever.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDAF6AD21B9D56D002094BF /* whatever.png */; };
+		0DDAF6B321B9D56D002094BF /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDAF6AE21B9D56D002094BF /* sad.png */; };
+		0DDAF6B421B9D56D002094BF /* Angry_Emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDAF6AF21B9D56D002094BF /* Angry_Emoji.png */; };
+		0DDAF6B521B9D56D002094BF /* Smiling_Face_Emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDAF6B021B9D56D002094BF /* Smiling_Face_Emoji.png */; };
+		0DDAF6B621B9D56D002094BF /* cool.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDAF6B121B9D56D002094BF /* cool.png */; };
+		0DDAF6B921B9D773002094BF /* MoodRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDAF6B721B9D6E2002094BF /* MoodRow.swift */; };
+		0DDAF6BC21B9D9D8002094BF /* MoodInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDAF6BB21B9D9D8002094BF /* MoodInterfaceController.swift */; };
+		E989CF70211CB7530061C2C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E989CF6F211CB7530061C2C6 /* AppDelegate.swift */; };
+		E989CF72211CB7530061C2C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E989CF71211CB7530061C2C6 /* ViewController.swift */; };
+		E989CF75211CB7530061C2C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E989CF73211CB7530061C2C6 /* Main.storyboard */; };
+		E989CF77211CB7580061C2C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E989CF76211CB7580061C2C6 /* Assets.xcassets */; };
+		E989CF7A211CB7580061C2C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E989CF78211CB7580061C2C6 /* LaunchScreen.storyboard */; };
+		E995C6D3212363F00022E409 /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E995C6D2212363F00022E409 /* MoodEntry.swift */; };
+		E995C6D5212367870022E409 /* MoodEntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E995C6D4212367870022E409 /* MoodEntryTableViewCell.swift */; };
+		E995C6D721236B520022E409 /* MoodDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E995C6D621236B520022E409 /* MoodDetailedViewController.swift */; };
+		E995C6D92123E1DC0022E409 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E995C6D82123E1DC0022E409 /* CalendarViewController.swift */; };
+		E995C6DB2123EBF60022E409 /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E995C6DA2123EBF60022E409 /* Date+String.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DDAF69321B9D160002094BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E989CF64211CB7520061C2C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DDAF69021B9D160002094BF;
+			remoteInfo = "watchKit Extension";
+		};
+		0DDAF6A021B9D161002094BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E989CF64211CB7520061C2C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DDAF68421B9D15D002094BF;
+			remoteInfo = watchKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0DDAF6A821B9D161002094BF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0DDAF69221B9D160002094BF /* watchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDAF6AA21B9D161002094BF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0DDAF6A221B9D161002094BF /* watchKit.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0DDAF68521B9D15D002094BF /* watchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDAF68821B9D15D002094BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0DDAF68A21B9D160002094BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DDAF68C21B9D160002094BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DDAF69121B9D160002094BF /* watchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDAF69621B9D160002094BF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0DDAF69821B9D160002094BF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		0DDAF69A21B9D160002094BF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0DDAF69C21B9D161002094BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DDAF69E21B9D161002094BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DDAF69F21B9D161002094BF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0DDAF6AD21B9D56D002094BF /* whatever.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whatever.png; sourceTree = "<group>"; };
+		0DDAF6AE21B9D56D002094BF /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
+		0DDAF6AF21B9D56D002094BF /* Angry_Emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Angry_Emoji.png; sourceTree = "<group>"; };
+		0DDAF6B021B9D56D002094BF /* Smiling_Face_Emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smiling_Face_Emoji.png; sourceTree = "<group>"; };
+		0DDAF6B121B9D56D002094BF /* cool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cool.png; sourceTree = "<group>"; };
+		0DDAF6B721B9D6E2002094BF /* MoodRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodRow.swift; sourceTree = "<group>"; };
+		0DDAF6BB21B9D9D8002094BF /* MoodInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodInterfaceController.swift; sourceTree = "<group>"; };
+		E989CF6C211CB7530061C2C6 /* Mood Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mood Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E989CF6F211CB7530061C2C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E989CF71211CB7530061C2C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E989CF74211CB7530061C2C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E989CF76211CB7580061C2C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E989CF79211CB7580061C2C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E989CF7B211CB7580061C2C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E995C6D2212363F00022E409 /* MoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntry.swift; sourceTree = "<group>"; };
+		E995C6D4212367870022E409 /* MoodEntryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntryTableViewCell.swift; sourceTree = "<group>"; };
+		E995C6D621236B520022E409 /* MoodDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDetailedViewController.swift; sourceTree = "<group>"; };
+		E995C6D82123E1DC0022E409 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		E995C6DA2123EBF60022E409 /* Date+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DDAF68E21B9D160002094BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E989CF69211CB7520061C2C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DDAF68621B9D15D002094BF /* watchKit */ = {
+			isa = PBXGroup;
+			children = (
+				0DDAF68721B9D15D002094BF /* Interface.storyboard */,
+				0DDAF68A21B9D160002094BF /* Assets.xcassets */,
+				0DDAF68C21B9D160002094BF /* Info.plist */,
+			);
+			path = watchKit;
+			sourceTree = "<group>";
+		};
+		0DDAF69521B9D160002094BF /* watchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0DDAF69621B9D160002094BF /* InterfaceController.swift */,
+				0DDAF6AC21B9D56D002094BF /* Moods */,
+				0DDAF69821B9D160002094BF /* ExtensionDelegate.swift */,
+				0DDAF69A21B9D160002094BF /* NotificationController.swift */,
+				0DDAF6B721B9D6E2002094BF /* MoodRow.swift */,
+				0DDAF69C21B9D161002094BF /* Assets.xcassets */,
+				0DDAF69E21B9D161002094BF /* Info.plist */,
+				0DDAF69F21B9D161002094BF /* PushNotificationPayload.apns */,
+				0DDAF6BB21B9D9D8002094BF /* MoodInterfaceController.swift */,
+			);
+			path = "watchKit Extension";
+			sourceTree = "<group>";
+		};
+		0DDAF6AC21B9D56D002094BF /* Moods */ = {
+			isa = PBXGroup;
+			children = (
+				0DDAF6AD21B9D56D002094BF /* whatever.png */,
+				0DDAF6AE21B9D56D002094BF /* sad.png */,
+				0DDAF6AF21B9D56D002094BF /* Angry_Emoji.png */,
+				0DDAF6B021B9D56D002094BF /* Smiling_Face_Emoji.png */,
+				0DDAF6B121B9D56D002094BF /* cool.png */,
+			);
+			path = Moods;
+			sourceTree = "<group>";
+		};
+		E989CF63211CB7520061C2C6 = {
+			isa = PBXGroup;
+			children = (
+				E989CF6E211CB7530061C2C6 /* Mood Tracker */,
+				0DDAF68621B9D15D002094BF /* watchKit */,
+				0DDAF69521B9D160002094BF /* watchKit Extension */,
+				E989CF6D211CB7530061C2C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E989CF6D211CB7530061C2C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E989CF6C211CB7530061C2C6 /* Mood Tracker.app */,
+				0DDAF68521B9D15D002094BF /* watchKit.app */,
+				0DDAF69121B9D160002094BF /* watchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E989CF6E211CB7530061C2C6 /* Mood Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				E989CF6F211CB7530061C2C6 /* AppDelegate.swift */,
+				E995C6DC2124A88B0022E409 /* Models */,
+				E995C6DD2124A8930022E409 /* Extensions */,
+				E995C6DE2124A89C0022E409 /* View Controllers */,
+				E989CF73211CB7530061C2C6 /* Main.storyboard */,
+				E995C6DF2124A8DC0022E409 /* Views */,
+				E995C6E02124A8E30022E409 /* Supporting Files */,
+			);
+			path = "Mood Tracker";
+			sourceTree = "<group>";
+		};
+		E995C6DC2124A88B0022E409 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E995C6D2212363F00022E409 /* MoodEntry.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E995C6DD2124A8930022E409 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E995C6DA2123EBF60022E409 /* Date+String.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E995C6DE2124A89C0022E409 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E989CF71211CB7530061C2C6 /* ViewController.swift */,
+				E995C6D621236B520022E409 /* MoodDetailedViewController.swift */,
+				E995C6D82123E1DC0022E409 /* CalendarViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E995C6DF2124A8DC0022E409 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E995C6D4212367870022E409 /* MoodEntryTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E995C6E02124A8E30022E409 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E989CF76211CB7580061C2C6 /* Assets.xcassets */,
+				E989CF78211CB7580061C2C6 /* LaunchScreen.storyboard */,
+				E989CF7B211CB7580061C2C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DDAF68421B9D15D002094BF /* watchKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DDAF6A921B9D161002094BF /* Build configuration list for PBXNativeTarget "watchKit" */;
+			buildPhases = (
+				0DDAF68321B9D15D002094BF /* Resources */,
+				0DDAF6A821B9D161002094BF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DDAF69421B9D160002094BF /* PBXTargetDependency */,
+			);
+			name = watchKit;
+			productName = watchKit;
+			productReference = 0DDAF68521B9D15D002094BF /* watchKit.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0DDAF69021B9D160002094BF /* watchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DDAF6A721B9D161002094BF /* Build configuration list for PBXNativeTarget "watchKit Extension" */;
+			buildPhases = (
+				0DDAF68D21B9D160002094BF /* Sources */,
+				0DDAF68E21B9D160002094BF /* Frameworks */,
+				0DDAF68F21B9D160002094BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchKit Extension";
+			productName = "watchKit Extension";
+			productReference = 0DDAF69121B9D160002094BF /* watchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		E989CF6B211CB7520061C2C6 /* Mood Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E989CF7E211CB7580061C2C6 /* Build configuration list for PBXNativeTarget "Mood Tracker" */;
+			buildPhases = (
+				E989CF68211CB7520061C2C6 /* Sources */,
+				E989CF69211CB7520061C2C6 /* Frameworks */,
+				E989CF6A211CB7520061C2C6 /* Resources */,
+				0DDAF6AA21B9D161002094BF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DDAF6A121B9D161002094BF /* PBXTargetDependency */,
+			);
+			name = "Mood Tracker";
+			productName = "Mood Tracker";
+			productReference = E989CF6C211CB7530061C2C6 /* Mood Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E989CF64211CB7520061C2C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = LinnierGames;
+				TargetAttributes = {
+					0DDAF68421B9D15D002094BF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					0DDAF69021B9D160002094BF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					E989CF6B211CB7520061C2C6 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = E989CF67211CB7520061C2C6 /* Build configuration list for PBXProject "Mood Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E989CF63211CB7520061C2C6;
+			productRefGroup = E989CF6D211CB7530061C2C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E989CF6B211CB7520061C2C6 /* Mood Tracker */,
+				0DDAF68421B9D15D002094BF /* watchKit */,
+				0DDAF69021B9D160002094BF /* watchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DDAF68321B9D15D002094BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDAF68B21B9D160002094BF /* Assets.xcassets in Resources */,
+				0DDAF68921B9D15D002094BF /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDAF68F21B9D160002094BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDAF6B321B9D56D002094BF /* sad.png in Resources */,
+				0DDAF69D21B9D161002094BF /* Assets.xcassets in Resources */,
+				0DDAF6B621B9D56D002094BF /* cool.png in Resources */,
+				0DDAF6B521B9D56D002094BF /* Smiling_Face_Emoji.png in Resources */,
+				0DDAF6B421B9D56D002094BF /* Angry_Emoji.png in Resources */,
+				0DDAF6B221B9D56D002094BF /* whatever.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E989CF6A211CB7520061C2C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E989CF7A211CB7580061C2C6 /* LaunchScreen.storyboard in Resources */,
+				E989CF77211CB7580061C2C6 /* Assets.xcassets in Resources */,
+				E989CF75211CB7530061C2C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DDAF68D21B9D160002094BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDAF6BC21B9D9D8002094BF /* MoodInterfaceController.swift in Sources */,
+				0DDAF69B21B9D160002094BF /* NotificationController.swift in Sources */,
+				0DDAF69921B9D160002094BF /* ExtensionDelegate.swift in Sources */,
+				0DDAF69721B9D160002094BF /* InterfaceController.swift in Sources */,
+				0DDAF6B921B9D773002094BF /* MoodRow.swift in Sources */,
+				0DDAF6AB21B9D195002094BF /* MoodEntry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E989CF68211CB7520061C2C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E995C6DB2123EBF60022E409 /* Date+String.swift in Sources */,
+				E995C6D92123E1DC0022E409 /* CalendarViewController.swift in Sources */,
+				E989CF72211CB7530061C2C6 /* ViewController.swift in Sources */,
+				E995C6D721236B520022E409 /* MoodDetailedViewController.swift in Sources */,
+				E989CF70211CB7530061C2C6 /* AppDelegate.swift in Sources */,
+				E995C6D3212363F00022E409 /* MoodEntry.swift in Sources */,
+				E995C6D5212367870022E409 /* MoodEntryTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DDAF69421B9D160002094BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DDAF69021B9D160002094BF /* watchKit Extension */;
+			targetProxy = 0DDAF69321B9D160002094BF /* PBXContainerItemProxy */;
+		};
+		0DDAF6A121B9D161002094BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DDAF68421B9D15D002094BF /* watchKit */;
+			targetProxy = 0DDAF6A021B9D161002094BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DDAF68721B9D15D002094BF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DDAF68821B9D15D002094BF /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		E989CF73211CB7530061C2C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E989CF74211CB7530061C2C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E989CF78211CB7580061C2C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E989CF79211CB7580061C2C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DDAF6A321B9D161002094BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC9W35QTCN;
+				IBSC_MODULE = watchKit_Extension;
+				INFOPLIST_FILE = watchKit/Info.plist;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.swifly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		0DDAF6A421B9D161002094BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC9W35QTCN;
+				IBSC_MODULE = watchKit_Extension;
+				INFOPLIST_FILE = watchKit/Info.plist;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.swifly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		0DDAF6A521B9D161002094BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC9W35QTCN;
+				INFOPLIST_FILE = "watchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.swifly;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		0DDAF6A621B9D161002094BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC9W35QTCN;
+				INFOPLIST_FILE = "watchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.swifly;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		E989CF7C211CB7580061C2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E989CF7D211CB7580061C2C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E989CF7F211CB7580061C2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC9W35QTCN;
+				INFOPLIST_FILE = "Mood Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.swifly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E989CF80211CB7580061C2C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC9W35QTCN;
+				INFOPLIST_FILE = "Mood Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.swifly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DDAF6A721B9D161002094BF /* Build configuration list for PBXNativeTarget "watchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDAF6A521B9D161002094BF /* Debug */,
+				0DDAF6A621B9D161002094BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DDAF6A921B9D161002094BF /* Build configuration list for PBXNativeTarget "watchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDAF6A321B9D161002094BF /* Debug */,
+				0DDAF6A421B9D161002094BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E989CF67211CB7520061C2C6 /* Build configuration list for PBXProject "Mood Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E989CF7C211CB7580061C2C6 /* Debug */,
+				E989CF7D211CB7580061C2C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E989CF7E211CB7580061C2C6 /* Build configuration list for PBXNativeTarget "Mood Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E989CF7F211CB7580061C2C6 /* Debug */,
+				E989CF80211CB7580061C2C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E989CF64211CB7520061C2C6 /* Project object */;
+}

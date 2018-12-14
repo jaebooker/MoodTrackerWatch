@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.18" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14238.10"/>
+    </dependencies>
+    <scenes>
+        <!--Mood Interface Controller-->
+        <scene sceneID="Ggl-Kk-CAj">
+            <objects>
+                <controller id="Szw-uP-AnP" customClass="MoodInterfaceController" customModule="watchKit_Extension">
+                    <items>
+                        <table alignment="left" id="Vqg-EV-Opj">
+                            <items>
+                                <tableRow identifier="moodRow" id="MCL-at-aE3" customClass="MoodRow" customModule="watchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="1vM-xc-OFM">
+                                        <items>
+                                            <imageView width="0.29999999999999999" alignment="left" id="FIl-v1-bMp"/>
+                                            <label width="0.66000000000000003" alignment="left" verticalAlignment="center" text="Label" id="kAo-Uy-Trs"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="moodImg" destination="FIl-v1-bMp" id="dmy-tC-kMM"/>
+                                        <outlet property="moodLabel" destination="kAo-Uy-Trs" id="tGB-ak-qIn"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="Vqg-EV-Opj" id="9tE-bw-SA0"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="181" y="39"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="watchKit" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="left" title="How you feelin'?" id="u16-rT-1bo"/>
+                    </items>
+                    <connections>
+                        <segue destination="Szw-uP-AnP" kind="relationship" relationship="nextPage" id="6F1-jF-a5R"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+    </scenes>
+</document>
